@@ -6,3 +6,4 @@
 3. [Semantic Search For Geospatial](https://shenoto.com/album/podcast/320254/چگونه-کامپیوترها-می‌توانند-معنی-متن-و-داده‌های-جغرافیایی-را-بفهمند؟)
 4. [GeoParquet](https://shenoto.com/album/podcast/320313/GeoParquet-فرمت-نوین-داده‌های-برداری-برای-دنیای-ابری)
 5. [modern Geospatial](https://shenoto.com/album/podcast/320315/مکان‌محور-مدرن-تقاطع-فناوری‌ها،-نوسازی،-و-فرصت‌های-پیش‌رو)
+6. [AI-QGIS](https://shenoto.com/album/podcast/320317/هوش-مصنوعی،-کیوجی‌آی‌اس-و-آینده-دیجیتایز-نقشه‌ها-ابزاری-برای-خودکارسازی-برداری-و-فراتر-از-آن)
