@@ -18,24 +18,61 @@
       text-align: center;
     }
     main {
-      max-width: 800px;
+      max-width: 1200px;
       margin: 20px auto;
       padding: 0 15px;
     }
     h1 {
       margin: 0;
     }
+    .search-container {
+      margin: 20px 0;
+      text-align: center;
+    }
+    #search-input {
+      padding: 10px;
+      width: 300px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+    .episodes-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 20px;
+    }
     .episode {
-      margin-bottom: 30px;
+      flex: 1 1 calc(33.333% - 20px);
+      min-width: 300px;
+      margin-bottom: 20px;
       background: #fff;
       padding: 15px;
       border-radius: 8px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      box-sizing: border-box;
+    }
+    .no-results {
+      width: 100%;
+      text-align: center;
+      padding: 20px;
+      font-size: 18px;
+      color: #666;
     }
     footer {
       text-align: center;
       color: #777;
       margin: 30px 0;
+    }
+    @media (max-width: 992px) {
+      .episode {
+        flex: 1 1 calc(50% - 20px);
+      }
+    }
+    @media (max-width: 768px) {
+      .episode {
+        flex: 1 1 100%;
+      }
     }
   </style>
 </head>
@@ -46,39 +83,104 @@
   </header>
 
   <main>
-    <!-- Paste your iframe episodes below -->
-    <div class="episode">
-      <p dir="rtl">داده‌های تلماتیک، درک رفتار رانندگی و آینده ایمنی جاده‌ها</p>
-      <iframe src="https://shenoto.com/player/podcast/320248" scrolling="no" frameborder="0" height="210px" width="100%"></iframe>
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Search episodes..." />
     </div>
 
-    <div class="episode">
-      <p dir="rtl">ابزار قدرتمند GIS میدانی: نگاهی به Qfield و Qfield Cloud</p>
-      <iframe src="https://shenoto.com/player/podcast/320250" scrolling="no" frameborder="0" height="210px" width="100%" ></iframe>
+    <div class="episodes-container" id="episodes-container">
+      <!-- Episodes will be loaded here -->
     </div>
-
-    <div class="episode">
-      <p dir="rtl">جستجوی معنایی داده‌های جغرافیایی</p>
-      <iframe src="https://shenoto.com/player/podcast/320254" scrolling="no" frameborder="0" height="210px" width="100%" ></iframe>
-    </div>
-    <div class="episode">
-      <p dir="rtl">GeoParquet: فرمت نوین داده‌های برداری برای دنیای ابری</p>
-      <iframe src="https://shenoto.com/player/podcast/320313" scrolling="no" frameborder="0" height="210px" width="100%" ></iframe>
-    </div>
-    <div class="episode">
-      <p dir="rtl">مکان‌محور مدرن: تقاطع فناوری‌ها، نوسازی، و فرصت‌های پیش‌رو</p>
-      <iframe src="https://shenoto.com/player/podcast/320315" scrolling="no" frameborder="0" height="210px" width="100%" ></iframe>
-    </div>
-    <!-- Example new episode -->
-    <!--
-    <div class="episode">
-      <iframe src="https://shenoto.com/player/podcast/NEW_EPISODE_ID" scrolling="no" frameborder="0" height="210px" width="100%"></iframe>
-    </div>
-    -->
   </main>
 
   <footer>
     © 2025 GISTalk.ir — Powered by GitHub Pages <a href="https://araz.me">(Araz.me)</a>
   </footer>
+
+  <script>
+    // Episode data
+    const episodes = [
+      {
+        title: "داده‌های تلماتیک، درک رفتار رانندگی و آینده ایمنی جاده‌ها",
+        id: "320248"
+      },
+      {
+        title: "ابزار قدرتمند GIS میدانی: نگاهی به Qfield و Qfield Cloud",
+        id: "320250"
+      },
+      {
+        title: "جستجوی معنایی داده‌های جغرافیایی",
+        id: "320254"
+      },
+      {
+        title: "GeoParquet: فرمت نوین داده‌های برداری برای دنیای ابری",
+        id: "320313"
+      },
+      {
+        title: "مکان‌محور مدرن: تقاطع فناوری‌ها، نوسازی، و فرصت‌های پیش‌رو",
+        id: "320315"
+      }
+    ];
+
+    // Function to create episode elements
+    function createEpisodeElement(episode) {
+      const episodeDiv = document.createElement("div");
+      episodeDiv.className = "episode";
+      
+      const titleP = document.createElement("p");
+      titleP.dir = "rtl";
+      titleP.textContent = episode.title;
+      
+      const iframe = document.createElement("iframe");
+      iframe.src = `https://shenoto.com/player/podcast/${episode.id}`;
+      iframe.scrolling = "no";
+      iframe.frameBorder = "0";
+      iframe.height = "210px";
+      iframe.width = "100%";
+      
+      episodeDiv.appendChild(titleP);
+      episodeDiv.appendChild(iframe);
+      
+      return episodeDiv;
+    }
+
+    // Function to display episodes
+    function displayEpisodes(filteredEpisodes = episodes) {
+      const container = document.getElementById("episodes-container");
+      container.innerHTML = "";
+      
+      if (filteredEpisodes.length === 0) {
+        const noResults = document.createElement("div");
+        noResults.className = "no-results";
+        noResults.textContent = "No episodes found matching your search.";
+        container.appendChild(noResults);
+        return;
+      }
+      
+      filteredEpisodes.forEach(episode => {
+        container.appendChild(createEpisodeElement(episode));
+      });
+    }
+
+    // Search functionality
+    document.getElementById("search-input").addEventListener("input", function(e) {
+      const searchTerm = e.target.value.toLowerCase();
+      
+      if (!searchTerm.trim()) {
+        displayEpisodes();
+        return;
+      }
+      
+      const filteredEpisodes = episodes.filter(episode => 
+        episode.title.toLowerCase().includes(searchTerm)
+      );
+      
+      displayEpisodes(filteredEpisodes);
+    });
+
+    // Initial display of all episodes
+    window.addEventListener("DOMContentLoaded", function() {
+      displayEpisodes();
+    });
+  </script>
 </body>
 </html>
