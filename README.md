@@ -7,3 +7,4 @@
 4. [GeoParquet](https://shenoto.com/album/podcast/320313/GeoParquet-فرمت-نوین-داده‌های-برداری-برای-دنیای-ابری)
 5. [modern Geospatial](https://shenoto.com/album/podcast/320315/مکان‌محور-مدرن-تقاطع-فناوری‌ها،-نوسازی،-و-فرصت‌های-پیش‌رو)
 6. [AI-QGIS](https://shenoto.com/album/podcast/320317/هوش-مصنوعی،-کیوجی‌آی‌اس-و-آینده-دیجیتایز-نقشه‌ها-ابزاری-برای-خودکارسازی-برداری-و-فراتر-از-آن)
+7. [Analyst2Engineer](https://shenoto.com/album/podcast/320706/داستان-یک-گذار-شغلی-از-تحلیلگر-داده‌های-مکانی-به-نقش‌های-مهندسی-و-استراتژیک)
