@@ -11,3 +11,4 @@
 8. [Natural language Geocoding](https://shenoto.com/album/podcast/320708/کدهای-جغرافیایی-زبان-طبیعی-چگونه-هوش-مصنوعی-درک-ما-از-مکان‌ها-را-متحول-می‌کند)
 9. [SatClip](https://shenoto.com/album/podcast/320712/مدل-توسعه‌یافته-برای-رمزگذاری-موقعیت‌های-جغرافیایی)
 10. [HiveMapper](https://shenoto.com/album/podcast/320901/نقشه‌برداری-جهانی-در-مقیاس-بزرگ)
+11. [Tracking Elephents](https://shenoto.com/album/podcast/320910/بررسی-اتصال-چشم‌انداز-برای-فیل‌ها-در-جنوب-آفریقا-مطالعه‌ای-مبتنی-بر-داده‌های-ردیابی-گسترده)
