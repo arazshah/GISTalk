@@ -12,3 +12,4 @@
 9. [SatClip](https://shenoto.com/album/podcast/320712/مدل-توسعه‌یافته-برای-رمزگذاری-موقعیت‌های-جغرافیایی)
 10. [HiveMapper](https://shenoto.com/album/podcast/320901/نقشه‌برداری-جهانی-در-مقیاس-بزرگ)
 11. [Tracking Elephents](https://shenoto.com/album/podcast/320910/بررسی-اتصال-چشم‌انداز-برای-فیل‌ها-در-جنوب-آفریقا-مطالعه‌ای-مبتنی-بر-داده‌های-ردیابی-گسترده)
+12. [Women GeoSpatial](https://shenoto.com/album/podcast/320916/جامعه-مکان-محور)
