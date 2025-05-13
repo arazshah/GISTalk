@@ -13,3 +13,6 @@
 10. [HiveMapper](https://shenoto.com/album/podcast/320901/نقشه‌برداری-جهانی-در-مقیاس-بزرگ)
 11. [Tracking Elephents](https://shenoto.com/album/podcast/320910/بررسی-اتصال-چشم‌انداز-برای-فیل‌ها-در-جنوب-آفریقا-مطالعه‌ای-مبتنی-بر-داده‌های-ردیابی-گسترده)
 12. [Women GeoSpatial](https://shenoto.com/album/podcast/320916/جامعه-مکان-محور)
+13. [Mappedin](https://shenoto.com/album/podcast/321206/مکالمه-درباره-نقشه‌برداری-داخل-ساختمان-چالش‌ها،-راه‌حل‌ها-و-آینده)
+14. [humanitarian](https://shenoto.com/album/podcast/321212/استفاده-از-اطلاعات-مکانی-در-فعالیت‌های-بشردوستانه-و-مدیریت-بحران)
+15. [L-Band](https://shenoto.com/album/podcast/321217/دیدن-فراتر-از-سطح-زمین)
