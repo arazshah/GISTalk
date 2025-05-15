@@ -16,3 +16,6 @@
 13. [Mappedin](https://shenoto.com/album/podcast/321206/مکالمه-درباره-نقشه‌برداری-داخل-ساختمان-چالش‌ها،-راه‌حل‌ها-و-آینده)
 14. [humanitarian](https://shenoto.com/album/podcast/321212/استفاده-از-اطلاعات-مکانی-در-فعالیت‌های-بشردوستانه-و-مدیریت-بحران)
 15. [L-Band](https://shenoto.com/album/podcast/321217/دیدن-فراتر-از-سطح-زمین)
+16. [GNSS](https://shenoto.com/album/podcast/321386/نگاهی-به-موقعیت‌یابی-دقیق-با-استفاده-از-سامانه‌های-ناوبری-ماهواره‌ای-جهانی-GNSS)
+17. [Lidar](https://shenoto.com/album/podcast/321387/فهم-داده‌های-لایدار-LiDAR-و-پردازش-آن‌ها-دیدگاه-یک-متخصص)
+18. [Spatial](https://shenoto.com/album/podcast/321389/ارزش‌گذاری-مهارت‌های-مکانی-فراتر-از-نقشه‌سازی)
