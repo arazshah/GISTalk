@@ -19,3 +19,6 @@
 16. [GNSS](https://shenoto.com/album/podcast/321386/نگاهی-به-موقعیت‌یابی-دقیق-با-استفاده-از-سامانه‌های-ناوبری-ماهواره‌ای-جهانی-GNSS)
 17. [Lidar](https://shenoto.com/album/podcast/321387/فهم-داده‌های-لایدار-LiDAR-و-پردازش-آن‌ها-دیدگاه-یک-متخصص)
 18. [Spatial](https://shenoto.com/album/podcast/321389/ارزش‌گذاری-مهارت‌های-مکانی-فراتر-از-نقشه‌سازی)
+19. [digital-earth](https://shenoto.com/album/podcast/321523/مفاهیم-و-کاربردهای-زیرساخت-ابری-بومی-برای-داده‌های-مکانی)
+20. [GEE](https://shenoto.com/album/podcast/321527/ابزاری-تعاملی-برای-تحلیل-و-بصری‌سازی-داده‌های-زمین‌مکانی-با-Google-Earth-Engine)
+21. [GPS](https://shenoto.com/album/podcast/321534/چرا-GPS-نیاز-به-بازنگری-دارد؟)
