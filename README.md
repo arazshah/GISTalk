@@ -22,3 +22,6 @@
 19. [digital-earth](https://shenoto.com/album/podcast/321523/مفاهیم-و-کاربردهای-زیرساخت-ابری-بومی-برای-داده‌های-مکانی)
 20. [GEE](https://shenoto.com/album/podcast/321527/ابزاری-تعاملی-برای-تحلیل-و-بصری‌سازی-داده‌های-زمین‌مکانی-با-Google-Earth-Engine)
 21. [GPS](https://shenoto.com/album/podcast/321534/چرا-GPS-نیاز-به-بازنگری-دارد؟)
+22. [Felt-Map](https://shenoto.com/album/podcast/325103/راهنمای-جامع-طراحی-نقشه-خلق-نقشه‌های-زیبا-و-گویا)
+23. [Planet](https://shenoto.com/album/podcast/325162/دیده‌بانی-زمین-و-تحلیل-تغییرات-با-ماهواره‌ه)
+24. [OverWatch](https://shenoto.com/album/podcast/325168/تصویربرداری-با-زاویه-دید-گسترده-برای-واکنش‌های-اضطراری)
