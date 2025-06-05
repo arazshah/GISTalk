@@ -25,3 +25,6 @@
 22. [Felt-Map](https://shenoto.com/album/podcast/325103/راهنمای-جامع-طراحی-نقشه-خلق-نقشه‌های-زیبا-و-گویا)
 23. [Planet](https://shenoto.com/album/podcast/325162/دیده‌بانی-زمین-و-تحلیل-تغییرات-با-ماهواره‌ه)
 24. [OverWatch](https://shenoto.com/album/podcast/325168/تصویربرداری-با-زاویه-دید-گسترده-برای-واکنش‌های-اضطراری)
+25. [personal_brand](https://shenoto.com/album/podcast/325255/راهکاری-برای-دیده-شدن-در-دنیای-دیجیتال)
+26. [Placesky](https://shenoto.com/album/podcast/325257/حل-موجودیت-برای-داده‌های-مکان‌ها-و-مفهوم-«Placekey»)
+27. [FOSS4G](https://shenoto.com/album/podcast/325261/راهبردهای-پذیرش-و-توسعه-فناوری‌های-متن‌باز-جغرافیایی-FOSS4G-در-سازمان‌ها)
