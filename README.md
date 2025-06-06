@@ -28,3 +28,6 @@
 25. [personal_brand](https://shenoto.com/album/podcast/325255/راهکاری-برای-دیده-شدن-در-دنیای-دیجیتال)
 26. [Placesky](https://shenoto.com/album/podcast/325257/حل-موجودیت-برای-داده‌های-مکان‌ها-و-مفهوم-«Placekey»)
 27. [FOSS4G](https://shenoto.com/album/podcast/325261/راهبردهای-پذیرش-و-توسعه-فناوری‌های-متن‌باز-جغرافیایی-FOSS4G-در-سازمان‌ها)
+28. [GeoAI](https://shenoto.com/album/podcast/325360/مروری-بر-اخبار-ژئوفضایی-از-هوش-مصنوعی-تا-نقشه‌برداری-و-فراتر)
+29. [ArcGIS](https://shenoto.com/album/podcast/325361/اخبار-صنعت-و-فهرست-آرزوهای-جامعه-کاربری-ArcGIS)
+30. [GeoNews](https://shenoto.com/album/podcast/325362/اخبار-مهم-در-دنیای-جغرافیا-و-فناوری-مکانی)
