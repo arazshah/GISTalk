@@ -31,3 +31,4 @@
 28. [GeoAI](https://shenoto.com/album/podcast/325360/مروری-بر-اخبار-ژئوفضایی-از-هوش-مصنوعی-تا-نقشه‌برداری-و-فراتر)
 29. [ArcGIS](https://shenoto.com/album/podcast/325361/اخبار-صنعت-و-فهرست-آرزوهای-جامعه-کاربری-ArcGIS)
 30. [GeoNews](https://shenoto.com/album/podcast/325362/اخبار-مهم-در-دنیای-جغرافیا-و-فناوری-مکانی)
+31. [AutonomousGIS](https://shenoto.com/album/podcast/466630/سامانه‌های-اطلاعات-مکانی-GIS-و-ادغام-آن-با-هوش-مصنوعی)
